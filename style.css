@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin:0 auto;
+    max-width: 1440px;
+    width: 96%;
+}
+
+/* header area start */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 133px; 
+    
+}
+ .header ul li{
+    display:inline-block;
+    
+
+}
+.header ul li a{
+    text-decoration: none;
+
+}
+button{
+    padding: 10px;
+    border:1px solid #000000;
+    border-radius: 3px;
+}
+
+
+button a{
+    text-decoration: none;
+}
+/* header area end */
+
+/* banner area start */
+
+.banner_area{
+    background-image: url(img/sun.png);
+    position: relative;
+    background-size: cover;
+    height: 616px;  
+}
+.banner-text{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:  #fff;
+}
+.banner-text button{
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px 40px 10px 40px;
+
+}
+
+
+/* banner area end */
+
+/* samanta area start */
+.samanta-area{
+    background-color: #ffff;
+}
+.samanta{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.samanta_text{
+    padding: 0px 100px 0px 40px;
+
+}
+.samanta_text h2{
+    padding-top: 30px;
+ 
+}
+.samanta_text p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+} 
+.samanta_text button{
+    background-color: #91D497;
+    padding: 20px 70px 20px 70px;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+/* samanta area end */
+
+/* "want-img-area start  */
+
+.want-img-area{
+    width: 1440;
+    height: 927;
+    background-color: #DFE8E6;
+    margin-top: 40px;
+    padding: 20px 70px 20px 70px;
+}
+.want-img-area h1{
+    padding: 40px 0 40px 0;
+}
+.Schedule{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Schedule p{
+    padding-bottom: 30px;
+}
+.Schedule input{
+    padding: 20px 180px 20px 20px;
+    background-color: #C2DAD4;
+    border-radius: 5px;
+    border: 0;
+}
+.Schedule button{
+    margin-left: 60px;
+    padding: 20px 50px 20px 50px;
+    background-color: #68BCA7;
+    border-radius: 5px;
+}
+
+/* "want-img-area start  */
+
+/* Services-area start */
+ .Services-area{ 
+    background-color: white;
+    width: 1440px;
+    height: 900px;
+
+}
+
+.services{
+    text-align: center;
+}
+
+.image{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.Services-area button{
+    margin:80px 0 0 550px;
+    background-color: #fff;
+    padding: 20px 60px 20px 60px;
+    border-radius: 5px;
+   
+}
+
+
+/* Services-area end */
+
+/* Philosophy-area start */
+
+.Philosophy-area{
+    width: 1440px;
+    height: 734px;
+    display: flex; 
+    justify-content: space-between;
+background-color: #DFE8E6;    
+}
+
+.Philosophy{
+    margin: 70px ;
+}
+.Philosophy h1{
+    text-align: center;
+}
+
+.Philosophy p{
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* Philosophy-area end */
+
+/* man-area start */
+
+.man-area{
+
+}
+
+.man{
+    display: flex;
+}
+.m-text{
+    width: 736px;
+    height: 734px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.m-text button{
+    margin-top: 200px;
+    background-color: #fff;
+    padding: 20px 60px 20px 60px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+/* man-area end */
+
+/* therapy-area start */
+
+.therapy-area{
+   background-color: #DFDFDF;
+    width: 1440px;
+    height: 386px;
+}
+.therapy{
+    text-align: center;
+    padding: 10%;
+}
+
+/* therapy-area end */
+
+/* botom-area srart */
+
+.botom-area{
+    background-color: #DFE8E6;
+}
+
+.botom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 133px; 
+    
+}
+ .botom ul li{
+    display:inline-block;
+    
+
+}
+.botom ul li a{
+    text-decoration: none;
+
+}
+.botom button{
+    padding: 10px;
+    border:1px solid #000000;
+    border-radius: 3px;
+}
+
+
+.botom button a{
+    text-decoration: none;
+}
+
+/* botom-area end */
+
+
+
+
